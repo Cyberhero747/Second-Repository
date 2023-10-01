@@ -1,13 +1,13 @@
 #include <stdio.h>
 void main() {
-    int a,b
+    int a,b;
     printf("Enter the first number: ");
-    scanf("%d", a);
+    scanf("%d", &a);
     printf("Enter the second number: ");
-    scanf("%d", b);
+    scanf("%d", &b);
     if (a > b) {
         printf("%d is greater than %d\n", a, b);
-    } else if (num2 > num1) {
+    } else if (b > a) {
         printf("%d is greater than %d\n", b, a);
     } else {
         printf("Both numbers are equal: %d\n", a);
